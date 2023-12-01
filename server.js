@@ -70,10 +70,10 @@ app.post('/register', (req, res) => {
 
 // ------------------------------------------------
   const conn = mysql.createConnection({
-      host: 'localhost',
-      user: 'proxygho_main',
-      password: 'Timeto30',
-      database: '	proxygho_main'
+      host: '162.244.92.2',
+      user: 'herosmcf_aiimagess',
+      password: 'Aidens time',
+      database: 'herosmcf_aiimages'
     });
 
   app.use(bodyParser.json())
