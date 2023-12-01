@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+   background-color: gray;
+}
+
+.container-left {
+    display: flex;
+    justify-content: left;
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-sidebar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+.promp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img { 
+    width: 35rem;
+    height: 23rem;
+    margin-left: 7rem;
+    transition: all .2s ease-in-out; 
+}
+
+.img:hover {
+     transform: scale(1.1); 
+}
+
+.download-btn {
+        width: 4.60rem;
+        height: 5rem;
+        border: none;
+        background-color: #3824ac;
+        color: white;
+        box-shadow: 4px 4px 6px black;
+        text-align: center;
+        text-align: middle;
+}
+
+.download-btn:hover {
+    box-shadow: none;
+}
+
+.loading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.tag-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.header-container {
+    background-color: black;
+    height: 6rem;
+}
+
+.gener {
+    font-size: 1.50rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.gal {
+    font-size: 1.50rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.image-logo {
+    width: 6rem;
+    height: 4rem;
+    margin-top: -3rem;
+}
+
+.ballence {
+    color: white;
+    float: right;
+    margin-top: -2rem;
+}

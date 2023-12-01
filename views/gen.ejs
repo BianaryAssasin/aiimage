@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="aigen.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Ai Image</title>
+</head>
+<body>
+    <div class="container-left">
+        <div class="left-sidebar">
+            <div>
+                <p>Buy 10 Credits for $2.99</p>
+                <p>to buy make a live chat ticket and we will create you an invoice</p>
+            </div>
+        </div>
+    </div>
+    <div class="header-container">
+        <div class="tag-container">
+            <a href="/protect" class="gal">Gallory</a>
+            <a href="/generate" class="gener">Generate</a>
+        </div>
+         <h1 class="ballence" id="bal">Balence: <%= vals %></h1>
+        <img src="logo.png" class="image-logo">
+    </div>
+    <br>
+        <input type="text" name="prompt" class="promp" id="gen">
+        <br>
+        <button class="btn" id="but">Make it</button>
+        <br>
+        <div class="container">
+            <img class="loading" id="load" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif">
+            <img id="image" class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HelloWorld.svg/512px-HelloWorld.svg.png?20100207111424">
+            <br>
+            <button id="button" class="download-btn">Download</button>
+        </div>
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="cf046fec-2703-42ae-85fa-85da96bc09d6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+        <script src="generate.js"></script>
+</body>
+</html>
